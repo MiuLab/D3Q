@@ -93,6 +93,7 @@ all the data is under this folder: ./src/deep_dialog/data
 
 ## Running Dialogue Agents
 
+
 ###DQN
 
 Basic DQN (DQN(1)):
@@ -134,6 +135,7 @@ python run.py --agt 9 --usr 1
 --model_type DQN --write_model_dir ./deep_dialog/checkpoints/dqn_k
 ```
 
+
 ###DDQ
 
 DDQ(5):
@@ -159,6 +161,7 @@ python run.py --agt 9 --usr 1
 --warm_start 1 --warm_start_epochs 50 --planning_steps k-1 --boosted 1 --train_world_model 1 
 --model_type DDQ --write_model_dir ./deep_dialog/checkpoints/ddq_k_1
 ```
+
 
 ###D3Q
 
