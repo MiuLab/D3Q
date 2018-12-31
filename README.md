@@ -94,7 +94,7 @@ all the data is under this folder: ./src/deep_dialog/data
 ## Running Dialogue Agents
 
 
-###DQN
+**DQN**
 
 Basic DQN (DQN(1)):
 
@@ -136,7 +136,7 @@ python run.py --agt 9 --usr 1
 ```
 
 
-###DDQ
+**DDQ**
 
 DDQ(5):
 
@@ -163,7 +163,7 @@ python run.py --agt 9 --usr 1
 ```
 
 
-###D3Q
+**D3Q**
 
 D3Q(5):
 
